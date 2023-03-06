@@ -1,0 +1,33 @@
+.main {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.para {
+    font-size: 16px;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .para {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  }
+  
