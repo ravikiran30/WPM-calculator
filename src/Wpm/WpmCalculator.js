@@ -38,24 +38,7 @@ const WpmCalculator = (
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <>
-        <div className="canvas">
-          <GlobalStyles />
-          
-          <TypeBox
-            textInputRef={textInputRef}
-            soundMode={soundMode}
-            key="type-box"
-            handleInputFocus={() => focusTextInput()}
-            name={name}
-          ></TypeBox>
-          <FooterMenu
-           
-            toggleSoundMode={toggleSoundMode}
-            
-            
-            activate={activate}
+    
           ></FooterMenu>
 
         </div>
